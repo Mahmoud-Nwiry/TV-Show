@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>TV Show Project | My Name (My GitHub username)</title>
+    <link href="style.css" rel="stylesheet" />
+    <link rel="icon" href="/favicon.ico" type="image/x-icon" />
+  </head>
+
+  <body>
+    <div class="loading">
+      <ul>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+      </ul>
+      <p>Loading</p>
+    </div>
+    <nav>
+      <div class="mneu-icon">
+        <img src="menu.png" alt="mneu">
+      </div>
+      <div class="container">
+        <div class="filter">
+          <span class="filter-text">Filter</span>
+          <select class="show-select"></select>
+          <select class="episode"></select>
+          <input type="text" class="search" placeholder="Search..."/>
+          <span class="displaying"></span>
+        </div>
+        <div class="link">
+          <a href="#" class="home">Home</a>
+        </div>
+      </div>
+    </nav>
+    <div class="container">
+
+      <section class="show-box">
+        
+      </section>
+      <div class="pagenumbers" id="pagination"></div>
+    </div>
+
+    <!-- Loads a provided function called getAllEpisodes() which returns all episodes -->
+    <script src="shows.js"></script>
+
+    <!-- Loads YOUR javascript code -->
+    <script src="script.js"></script>
+  </body>
+</html>
